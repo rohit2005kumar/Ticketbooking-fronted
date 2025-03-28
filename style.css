@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Roboto, sans-serif;
+    background-color: #fafafa;
+   
+}
+.main{
+    background: url("https://cdn.confirmtkt.com/img/rcb_banners/desktop_rcb_background.png");
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .logo img{
+    height: 2.5rem;
+  
+}
+li{
+    list-style: none;
+}
+li:hover{
+    color: green;
+}
+.li{
+    display: flex;
+    gap: 2rem;
+    margin-top: 0.8rem;
+}
+i{
+color: gray;
+font-size: 1.3rem;
+
+}
+
+/* heading section  */
+.heading-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading-section h1{
+    color: #42a047;
+    margin: 24px 0 4px 0;
+}
+.heading-section h4{
+    color: #3333339d;
+    font-size: 18px;
+    margin: 0px 0 4px 0;
+}
+.sec2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inp{
+    
+    display: flex;
+    gap: 2rem;
+    border-right: 1px solid gray;
+   
+    padding: 16px;
+   
+   
+}
+.form-elements{
+display: flex;
+align-items: center;
+justify-content: space-between;
+border: 1px solid gray;
+border-radius: 5px;
+margin-top: 3rem;
+}
+.label-div{
+    display: flex;
+    flex-direction: column;
+   
+}
+label{
+     margin-bottom: .3rem;
+color: gray;
+   
+}
+.swap-icon {
+    display: flex;
+    align-items: center;
+
+    img {
+      border-radius: 50%;
+      position: absolute;
+      cursor: pointer;
+      -moz-transition: all 0.4s linear;
+      -webkit-transition: all 0.4s linear;
+      transition: all 0.4s linear;
+      margin-left: -20px;
+      z-index: 90;
+
+      &.rotate {
+        --rotate-deg: 180deg;
+        -moz-transform: rotate(var(--rotate-deg));
+        -webkit-transform: rotate(var(--rotate-deg));
+        transform: rotate(var(--rotate-deg));
+      }
+    }
+  }
+ 
+
+   button{
+    background-color: #43a64e;
+    border: 0;
+    border-radius: 0 8px 8px 0;
+    box-shadow: none;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    height: 80px;
+    letter-spacing: .5px;
+    line-height: 1;
+    margin: 0;
+    padding: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 160px;
+  }
+  .sec3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .rcb-banner{
+    background: url("https://cdn.confirmtkt.com/img/rcb_banners/desktop_rcb_banner.png");
+    height: 250px;
+    width: 500px;
+    margin-top: 3rem;
+    /* transform: translateX(-50%); */
+  }
+  .irctc-logo{
+    display: flex;
+    justify-content: center;
+  }
+  .irctc-logo img{
+    height: 32px;
+    width: 32px;
+  }
+  .irctc-logo h3{
+    margin-top: .5rem;
+    font-size: 14px;
+    font-weight: normal;
+  }
+  .home-faetures{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 3rem 0 0 0;
+
+  }
+   .home-faetures h2{
+    font-size: 18px;
+    font-weight: normal;
+   }
+
+  .features-cnftkt{
+   display: grid;
+   grid-template-rows: 100px 100px 100px;
+   grid-template-columns: 300px 300px;
+   gap: 100px;
+   margin: 3rem 0 0 0;
+ 
+  }
+  .features-items{
+  display: flex;
+  gap: 20px;
+  }
+  .features-items h3{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 1rem 0;
+
+  }
+  .features-items p{
+    color: gray;
+  }
+ 
+  .download-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cfe6cd;
+  }
+  .mobile{ 
+    background-color: #cfe6cd;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .mobile img{
+    background-color: #cfe6cd;
+  }
+  
